@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>korvex_urban</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&family=Germania+One&family=Manufacturing+Consent&family=New+Rocker&family=Rye&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="boton-catalogo" href="boton.html">
+
+</head>
+<body>
+  <header>
+   <div class="header">
+  <img src="imagenes/logo.jpg" alt="logo" class="logo">
+  
+</div>
+    <nav>
+      <ul>
+        <li><a href="#productos">Productos</a></li>
+        <li><a href="conoce mas">conoce mas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  
+
+  <section class="productos" id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="producto">
+      <img src="imagenes/miscas.jpg" alt="Camiseta urbana">
+      <h3>Camiseta</h3>
+    </div>
+    <div class="producto">
+      <img src="imagenes/gorras.jpg" alt="Gorras urbanas">
+      <h3>Gorras</h3>
+    </div>
+    <div class="producto">
+      <img src="imagenes/busos.jpg" alt="Busos urbanos">
+      <h3>Busos</h3>
+    </div>
+     </div>
+    <div class="producto">
+      <img src="imagenes/acsesorios.jpg" alt="acsesorios">
+      <h3>acsesorioss</h3>
+    </div>
+  </section>
+
+  <div class="boton-catalogo">
+    <a href="boton.html" class="btn">catalogo</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 korvex_urban - Todos los derechos reservados</p>
+  </footer>
+  <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.12.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.12.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyC1QrFsAKnOo3nHYx29yjhkHJjiinmIcOo",
+    authDomain: "korvex-869bd.firebaseapp.com",
+    projectId: "korvex-869bd",
+    storageBucket: "korvex-869bd.firebasestorage.app",
+    messagingSenderId: "572081275213",
+    appId: "1:572081275213:web:a7c2ccb446ec7eec173704",
+    measurementId: "G-H43BV8ZY40"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+</body>
+</html>

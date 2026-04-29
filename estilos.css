@@ -1,0 +1,102 @@
+.new-rocker-regular {
+  font-family: "New Rocker", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.header {
+  display: flex;
+  align-items: center;    /* centra verticalmente */
+  justify-content: center;  /* centra todo horizontalmente */
+  gap: 15px;                /* espacio entre logo y texto */
+}
+
+.logo {
+  width: 150px; /* ajusta tamaño */
+;
+}
+  
+
+body {
+   font-family: "New Rocker", system-ui;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  
+}
+
+header {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.productos {
+  padding: 40px;
+  text-align: center;
+}
+
+.producto {
+  display: inline-block;
+  margin: 20px;
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  width: 200px;
+}
+
+.producto img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.boton-catalogo {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.btn {
+  background-color: #222;
+  color: #fff;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.accesorios img {
+  width: 250px;
+  height: auto;
+}
